@@ -83,3 +83,12 @@ pip install .
 Create an IPython kernel for the drlnd environment.
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+
+### Running the code
+
+Following files contain the implementation of model:
+1. ddpg_agent.py
+2. ddpg_model.py
+(To run the model import these classes.)
+To see how to run the code check the notebook - Continuous_Control.ipynb 
+You will require Reacher environment which can be downloaded from the link above.
